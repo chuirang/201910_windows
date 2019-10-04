@@ -31,6 +31,7 @@
 
    ```
    
+   Internal network IP 입력(Optional)
 
    ```commandline
    - command (관리자로 실행)
