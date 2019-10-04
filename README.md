@@ -72,14 +72,14 @@
 
    ​	2) 멤버 Join
    
-   ※ 주의: 도메인 Join 이후 로그인 계정 → local.com\administrator
+   ※ 주의: 도메인 Join 이후 로그인 계정 → **local.com\administrator**
    
 
    B. iSCSI initiator 로 iSCSI target 서버에 연결 (생략)
 
-   C. Failover Cluster Role 설치 (교재 174 페이지 )
+   C. Failover Cluster Role 설치 (fc1, fc2 둘다 수행) (교재 174 페이지)
 
-   D. 장애조치 클러스터 관리자 > 클러스터 만들기
+   D. 장애조치 클러스터 관리자 > 클러스터 만들기 (fc1 에서 수행) (교재 174 페이지)
 
 
 
