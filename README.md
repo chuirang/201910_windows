@@ -44,6 +44,10 @@
     w2012r2ad Off   0           0                 00:00:00 정상 작동 8.0
     ```
    
+   확인사항
+   1) (ad, fc1, fc2) 바탕화면 > ping_check 실행
+   2) (fc1, fc2) 시작 > 실행 > diskmgmt.msc > disk1, disk2 확인
+   
 
 1. **AD+iSCSI 용 서버 OS 설정 (생략)**
 
