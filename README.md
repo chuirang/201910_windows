@@ -4,7 +4,7 @@
 
 
 ### - 필요 서버: AD+iSCSI 서버 1EA, Failover Cluster Node 2EA
-
+![1570175418284](https://user-images.githubusercontent.com/20136723/66191171-ae157400-e6c8-11e9-9f6c-c9fc8e780f72.png)
 
 
 ### - 진행 내용
