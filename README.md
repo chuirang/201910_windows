@@ -38,14 +38,11 @@
 
    예상결과
     ```powershell
-    PS C:\Windows\system32> Import-VM -Path 'C:\VM\w2012r2ad\Virtual Machines\C266D632-8B60-43A8-9B9D-AE5B91E827EC.vmcx' -Co
-py -GenerateNewId
-
-Name      State CPUUsage(%) MemoryAssigned(M) Uptime   Status    Version
-----      ----- ----------- ----------------- ------   ------    -------
-w2012r2ad Off   0           0                 00:00:00 정상 작동 8.0
+    PS C:\Windows\system32> Import-VM -Path 'C:\VM\w2012r2ad\Virtual Machines\C266D632-8B60-43A8-9B9D-AE5B91E827EC.vmcx' -Copy -GenerateNewId
+    Name      State CPUUsage(%) MemoryAssigned(M) Uptime   Status    Version
+    ----      ----- ----------- ----------------- ------   ------    -------
+    w2012r2ad Off   0           0                 00:00:00 정상 작동 8.0
     ```
-
    
 
 1. **AD+iSCSI 용 서버 OS 설정 (생략)**
