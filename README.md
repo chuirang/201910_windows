@@ -3,10 +3,9 @@
 ## LAB 18: Failover Cluster 
 
 
-
 ### - 필요 서버: AD+iSCSI 서버 1EA, Failover Cluster Node 2EA
 
-![1570175418284](C:\Users\SDS\Desktop\lab\LAB 18 Failover Cluster.assets\1570175418284.png)
+
 
 ### - 진행 내용
 
