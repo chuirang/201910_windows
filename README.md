@@ -71,7 +71,7 @@
    -  DNS Server를 **192.168.56.10**으로 설정
 
    ​	2) 멤버 Join
-   
+   ※ 주의: 도메인 Join 이후 로그인 계정 → local.com\administrator
    
 
    B. iSCSI initiator 로 iSCSI target 서버에 연결 (생략)
