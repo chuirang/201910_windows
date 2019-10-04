@@ -21,7 +21,10 @@
    New-VMSwitch -Name Heartbeat -SwitchType Private
    ```
 
-   
+   ```commandline
+   - command (관리자로 실행)
+   netsh int ip set addr name="vEthernet (Private)" static 192.168.56.1 255.255.255.0
+   ```
 
    B. 가상 머신 가져오기
 
