@@ -95,14 +95,14 @@
    C. Failover Cluster Role 설치 (fc1, fc2 둘다 수행) (교재 174 페이지)
 
    D. 장애조치 클러스터 관리자 > 클러스터 만들기 (fc1 에서 수행) (교재 174 페이지)
-     1) 클러스터 생성
-     - cluster name: testCluster
-     - cluster Network: 
-       - 172.16.0.0/24, 10.10.10.0/24 체크 제외
-       - 192.168.56.0/24 네트워크의 Address에 192.168.50.20 입력
-     2) 역할 구성
-     - Command line: nodetepad.exe
-     - Name: Notepad
-     - Setvice IP: 192.168.56.30
+   1) 클러스터 생성
+   - cluster name: testCluster
+   - cluster Network: 
+     - 172.16.0.0/24, 10.10.10.0/24 체크 제외
+     - 192.168.56.0/24 네트워크의 Address에 192.168.50.20 입력
+   2) 역할 구성
+   - Command line: nodetepad.exe
+   - Name: Notepad
+   - Setvice IP: 192.168.56.30
 
 
