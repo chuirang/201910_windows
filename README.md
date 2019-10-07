@@ -9,7 +9,7 @@
 
 ### - 진행 내용
 
-0. **사전 진행사항**
+### 0. **사전 진행사항**
 
    A. 가상 스위치 생성
 
@@ -65,7 +65,7 @@
    2) (fc1, fc2) 시작 > 실행 > diskmgmt.msc > disk1, disk2 확인
    
 
-1. **AD+iSCSI 용 서버 OS 설정 (생략)**
+### 1. **AD+iSCSI 용 서버 OS 설정 (생략)**
 
    A. AD 설치
 
@@ -73,7 +73,7 @@
 
    
 
-2. **Failover Cluster 노드 OS 설정 (w2012r2fc1, w2012rcfc2 에서 수행)**
+### 2. **Failover Cluster 노드 OS 설정 (w2012r2fc1, w2012rcfc2 에서 수행)**
 
    A. AD 조인 (교재 172 페이지)
 
