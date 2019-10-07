@@ -21,15 +21,6 @@
    New-VMSwitch -Name Heartbeat -SwitchType Private
    ```
    
-   예상결과
-   ```powershell
-   PS C:\Windows\system32> New-VMSwitch -Name Heartbeat -SwitchType Private
-   
-   Name      SwitchType NetAdapterInterfaceDescription
-   ----      ---------- ------------------------------
-   Heartbeat Private
-
-   ```
    
    Internal network IP 입력
 
@@ -47,15 +38,6 @@
    Import-VM -Path 'C:\VM\w2012r2fc2\Virtual Machines\630F996A-8127-4FE9-A6F0-412DB370C0D6.vmcx' -Copy -GenerateNewId
    ```
 
-   예상결과
-   
-   ```powershell
-   PS C:\Windows\system32> Import-VM -Path 'C:\VM\w2012r2ad\Virtual Machines\C266D632-8B60-43A8-9B9D-AE5B91E827EC.vmcx' -Copy -GenerateNewId
-    
-   Name      State CPUUsage(%) MemoryAssigned(M) Uptime   Status    Version
-   ----      ----- ----------- ----------------- ------   ------    -------
-   w2012r2ad Off   0           0                 00:00:00 정상 작동 8.0
-   ```
    
    확인사항
    1) (ad, fc1, fc2) 바탕화면 > ping_check 실행
