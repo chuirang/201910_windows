@@ -41,25 +41,24 @@
    B. 가상 머신 가져오기
 
    ```powershell
-   1) USB의 VM 폴더를 C:\에 복사한다
-   2) Powershell (관리자로 실행)
-   
+   - Powershell (관리자로 실행)
    Import-VM -Path 'C:\VM\w2012r2ad\Virtual Machines\C266D632-8B60-43A8-9B9D-AE5B91E827EC.vmcx' -Copy -GenerateNewId
-   
    Import-VM -Path 'C:\VM\w2012r2fc1\Virtual Machines\1DCB9B69-A114-49CA-A633-3EFE8E28B1D0.vmcx' -Copy -GenerateNewId
-   
    Import-VM -Path 'C:\VM\w2012r2fc2\Virtual Machines\630F996A-8127-4FE9-A6F0-412DB370C0D6.vmcx' -Copy -GenerateNewId
    ```
 
    예상결과
    
     ```powershell
+    
     PS C:\Windows\system32> Import-VM -Path 'C:\VM\w2012r2ad\Virtual Machines\C266D632-8B60-43A8-9B9D-AE5B91E827EC.vmcx' -Copy -GenerateNewId
     
     Name      State CPUUsage(%) MemoryAssigned(M) Uptime   Status    Version
     ----      ----- ----------- ----------------- ------   ------    -------
     w2012r2ad Off   0           0                 00:00:00 정상 작동 8.0
+    
     ```
+   
    
    확인사항
    1) (ad, fc1, fc2) 바탕화면 > ping_check 실행
@@ -96,12 +95,12 @@
    C. Failover Cluster Role 설치 (fc1, fc2 둘다 수행) (교재 174 페이지)
 
    D. 장애조치 클러스터 관리자 > 클러스터 만들기 (fc1 에서 수행) (교재 174 페이지)
-   1) 클러스터 생성
+   ​	1) 클러스터 생성
    - cluster name: testCluster
    - cluster Network: 
      - 172.16.0.0/24, 10.10.10.0/24 체크 제외
      - 192.168.56.0/24 네트워크의 Address에 192.168.50.20 입력
-   2) 역할 구성
+   ​	2) 역할 구성
    - Command line: nodetepad.exe
    - Name: Notepad
    - Setvice IP: 192.168.56.30
