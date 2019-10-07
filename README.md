@@ -52,6 +52,7 @@
    ```
 
    예상결과
+   
     ```powershell
     PS C:\Windows\system32> Import-VM -Path 'C:\VM\w2012r2ad\Virtual Machines\C266D632-8B60-43A8-9B9D-AE5B91E827EC.vmcx' -Copy -GenerateNewId
     
