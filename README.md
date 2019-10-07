@@ -85,8 +85,10 @@
 
    ​	2) 멤버 Join
    
-   ※ 주의: 도메인 Join 이후 로그인 계정 → **local.com\administrator**
+   - Domain: local.com  
+   - ID: administrator / (별도 공지)
    
+   ※ 주의: 도메인 Join 이후 로그인 계정 → **local.com\administrator**   
 
    B. iSCSI initiator 로 iSCSI target 서버에 연결 (생략)
 
