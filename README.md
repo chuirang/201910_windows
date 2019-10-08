@@ -82,7 +82,7 @@
      - 192.168.56.0/24 네트워크의 Address에 192.168.56.20 입력
      
    ​	2) 역할 구성
-   - Command line: nodetepad.exe
+   - Command line: notepad.exe
    - Name: Notepad
    - Setvice IP: 192.168.56.30
 
